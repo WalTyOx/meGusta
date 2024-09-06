@@ -1,0 +1,90 @@
+#topBar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    align-items: center;
+    margin: 40px;
+    height: 220px;
+    margin-top: 70px;
+    border-radius: 15px;
+    
+}
+#profile img{
+    width: 150px;
+    margin: 10px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: groove;
+
+}
+#profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+.right h2{
+    margin-left: 15px;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: lightblue;
+}
+
+.tituloBoton{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.comentarios p{
+    margin: 15px;
+}
+.botonLike{
+    margin-left:10px ;
+    background-color: yellow;
+    color: black;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.botonLike2{
+    margin-left:10px ;
+    background-color: yellow;
+    color: black;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.botonLike1{
+    margin-left:10px ;
+    background-color: yellow;
+    color: black;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
